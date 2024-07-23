@@ -4,4 +4,7 @@ create JS file
 change in package.json add type to module
 copy paste, basic API stuff 
 change the require to import 
+Make sure Port is 3000
+get response to know console log is sent
+response must include a string 
 
