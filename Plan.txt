@@ -1,0 +1,7 @@
+NPM init -y
+npm install express 
+create JS file
+change in package.json add type to module
+copy paste, basic API stuff 
+change the require to import 
+
