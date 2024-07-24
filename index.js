@@ -14,3 +14,17 @@ app.listen(port, () => {
   console.log(`mafiaApp listening on port ${port}`)
 })
 
+app.get('/astronauts', async (request, response) => {
+  try {
+  const astronauts = await getAstronauts();
+  response.status(200).json({
+    "success": true,
+    "payload": astronauts,
+  });
+  } catch (erroooorr); {
+  response.status(400).json({
+    "success": false,
+    "payload": null,
+  });
+}
+})

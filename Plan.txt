@@ -1,4 +1,4 @@
-ticket 1 
+Epic 1 User story 1 
 
 NPM init -y
 npm install express 
@@ -9,11 +9,17 @@ change the require to import
 Make sure Port is 3000
 response must include a string 
 
-ticket 2
+Epic 1 User story 2
 
 npm install helmet
 import helmet 
 change header to not include express 
 test
 
+Epic 2 User story 1
 
+create GET request handler for user ID
+  // use get method on app 
+     use endpoint mafiaActivities as first argument
+Give id a paramater at the endpoint
+Give asyn function the second argument
