@@ -20,6 +20,18 @@ Epic 2 User story 1
 
 create GET request handler for user ID
   // use get method on app 
-     use endpoint mafiaActivities as first argument
-Give id a paramater at the endpoint
-Give asyn function the second argument
+  // use endpoint /mafiaActivities as first argument 
+     and give /:id a paramater at the endpoint
+  // give asyn function the second argument
+     use req and res as arguments 
+  // fat arrow to curly 
+  // define const variable for id as request.perams.id
+
+
+Create json
+  //
+
+Try send data
+ // define payload
+
+
