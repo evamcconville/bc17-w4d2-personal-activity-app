@@ -29,9 +29,18 @@ create GET request handler for user ID
 
 
 Create json
-  //
+  //create file
+  //fill with object key value pairs
+  //activity type, funny examples
+  //activity duration
+  //gangster ID
+
+
 
 Try send data
  // define payload
+ // Try{}
+ //define const as mafiaActivity = 
+ //
 
 
