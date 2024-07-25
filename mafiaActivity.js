@@ -1,4 +1,4 @@
-const MafiaActivity = [
+const mafiaActivity = [
 {
 	"id": "1", // UUID
 	"activity_submitted": "1719486190058", // simple Epoc timestamp (Date.now() in JS)

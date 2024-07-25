@@ -5,9 +5,21 @@ import helmet from 'helmet'
 
 app.use(helmet())
 
-app.get('/', (req, res) => {
-  res.send('Say hello to my little friend...')
-  console.log('')
+res.send('Say hello to my little friend...')
+console.log('')
+
+
+app.get('/mafiaActivities/:id', (req, res) => {
+  try {
+    res.status(200)
+    "payload": mafiaActivity.id,
+    "sucess": true
+  } catch (error) {
+    res.status(400)
+    "payload": null
+    "error": true,
+//    "sucess": false
+  }
 })
 
 app.listen(port, () => {
